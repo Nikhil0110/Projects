@@ -15,10 +15,8 @@ public class QuizLoader {
 			int count=0;
 			String line;
 			while((line=br.readLine())!= null){
-				//System.out.println(line);
 				Item i=new Item();
 				String arr[]=line.split(",");
-				//System.out.println(arr[0]);
 				i.qid=arr[0];
 				i.question=arr[1];
 				i.options[0]=arr[2];
@@ -32,7 +30,7 @@ public class QuizLoader {
 				
 			}
 			
-			System.out.println("There are "+qItems.length+" questions");
+			
 			
 		
 			return qItems;
