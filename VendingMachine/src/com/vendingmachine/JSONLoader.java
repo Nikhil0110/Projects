@@ -11,12 +11,10 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-
-
 public class JSONLoader {
-	
-	static String jsonFile="N:\\WS\\VendingMachine\\Data\\product.json";
-	
+
+	static String jsonFile = "N:\\WS\\VendingMachine\\Data\\product.json";
+
 	public HashMap<String,Integer[]> loadJSON(String jsonFile) throws FileNotFoundException, IOException, ParseException{
 		Collect
 		
@@ -29,11 +27,9 @@ public class JSONLoader {
 		return null;
 		
 	}
-	
+
 	public static void main(String[] args) throws FileNotFoundException, IOException, ParseException {
 
-	
-}
-	
+	}
 
 }
